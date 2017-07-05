@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.14" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <interface id="1" language="java" name="com.game.src.characters.EnemyEntity" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/characters/EnemyEntity.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="137" x="736" y="1437"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="2" language="java" name="com.game.src.characters.Player" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/characters/Player.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="621" width="256" x="1459" y="-29"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="3" language="java" name="com.game.src.characters.FriendlyEntity" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/characters/FriendlyEntity.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="137" x="1470" y="1846"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="com.game.src.logics.Physics" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/logics/Physics.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="244" x="1281" y="632"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.game.src.media.Sound" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/media/Sound.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="136" x="1759" y="2705"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.game.src.graphics.FrameStarter" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/graphics/FrameStarter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="128" x="913" y="1437"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.game.src.logics.Score" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/logics/Score.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="171" x="572" y="2705"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.game.src.userInteraction.KeyInput" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/userInteraction/KeyInput.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="165" x="1337" y="1437"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.game.src.userInteraction.MouseInput" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/userInteraction/MouseInput.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="263" x="-295" y="1437"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.game.src.graphics.WinScreen" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/graphics/WinScreen.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="184" x="124" y="2705"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.game.src.graphics.GameScreen" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/graphics/GameScreen.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="206" x="1049" y="2705"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.game.src.graphics.GameOverScreen" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/graphics/GameOverScreen.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="184" x="348" y="2705"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.game.src.constants.MenuConstants" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/constants/MenuConstants.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="783" width="181" x="-285" y="3150"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.game.src.graphics.BufferedImageLoader" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/graphics/BufferedImageLoader.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="184" x="825" y="2705"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.game.src.characters.BikeEnemy" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/characters/BikeEnemy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="278" x="10" y="-29"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="com.game.src.constants.FinalScreenConstants" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/constants/FinalScreenConstants.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="585" width="244" x="145" y="3150"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="com.game.src.logics.GameHighscores" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/logics/GameHighscores.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="405" width="259" x="-464" y="2705"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="18" language="java" name="com.game.src.constants.GameConstants.STATE" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/constants/GameConstants.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="122" x="-83" y="5421"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="19" language="java" name="com.game.src.characters.CarEnemy" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/characters/CarEnemy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="275" x="481" y="-29"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="com.game.src.libs.Animation" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/libs/Animation.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="765" width="1128" x="71" y="632"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="com.game.src.constants.GameConstants" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/constants/GameConstants.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1215" width="181" x="720" y="4166"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="com.game.src.characters.GameObject" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/characters/GameObject.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="162" x="1459" y="-451"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="com.game.src.main.Game" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/main/Game.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="819" width="218" x="764" y="1846"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="com.game.src.characters.TruckEnemy" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/characters/TruckEnemy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="285" x="1755" y="-29"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="25" language="java" name="com.game.src.constants.GameConstants.LaneNumber" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/constants/GameConstants.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="135" x="922" y="5421"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="26" language="java" name="com.game.src.characters.Leaves" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/characters/Leaves.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="369" width="206" x="1710" y="1437"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="com.game.src.graphics.Textures" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/graphics/Textures.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="215" x="1670" y="3150"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="com.game.src.graphics.SpriteSheet" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/graphics/SpriteSheet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="211" x="1668" y="3973"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="com.game.src.characters.Enemy" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/characters/Enemy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="258" x="845" y="-276"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="com.game.src.graphics.ExtraScreens" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/graphics/ExtraScreens.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="213" x="-548" y="1437"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="com.game.src.graphics.Menu" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/graphics/Menu.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="165" x="-123" y="2705"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="com.game.src.logics.Controller" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/logics/Controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="240" x="1628" y="632"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="33">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <association id="34">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="35" name="winScreen"/>      
+      <multiplicity id="36" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="37">    
+    <bendpoint x="1595" y="1437"/>    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="38" name="friendlyEntity"/>      
+      <multiplicity id="39" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="40">    
+    <bendpoint x="-489" y="1846"/>    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <association id="41">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="42" name="gameController"/>      
+      <multiplicity id="43" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="44">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="45" name="game"/>      
+      <multiplicity id="46" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="47">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="48" name="playerAnimation"/>      
+      <multiplicity id="49" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="50">    
+    <bendpoint x="-74" y="3150"/>    
+    <bendpoint x="-74" y="3973"/>    
+    <bendpoint x="-74" y="4166"/>    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <association id="51">    
+    <bendpoint x="1679" y="1437"/>    
+    <bendpoint x="1679" y="1846"/>    
+    <bendpoint x="1679" y="2705"/>    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="52" name="controllerTextures"/>      
+      <multiplicity id="53" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="54">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="55" name="gameScreen"/>      
+      <multiplicity id="56" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="57">    
+    <bendpoint x="-44" y="-29"/>    
+    <bendpoint x="-44" y="632"/>    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <dependency id="58">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="59">    
+    <bendpoint x="53" y="1846"/>    
+    <bendpoint x="72" y="2705"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <association id="60">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="61" name="game"/>      
+      <multiplicity id="62" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="63">    
+    <bendpoint x="2030" y="632"/>    
+    <bendpoint x="2030" y="1437"/>    
+    <bendpoint x="2051" y="1846"/>    
+    <bendpoint x="2051" y="2705"/>    
+    <bendpoint x="2030" y="3150"/>    
+    <bendpoint x="2030" y="3973"/>    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <association id="64">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="65" name="spriteSheet"/>      
+      <multiplicity id="66" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="67">    
+    <bendpoint x="1553" y="1437"/>    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="68" name="game"/>      
+      <multiplicity id="69" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="70">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="71" name="menu"/>      
+      <multiplicity id="72" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="31" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="73">    
+    <bendpoint x="-2" y="632"/>    
+    <bendpoint x="19" y="1437"/>    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="74" name="game"/>      
+      <multiplicity id="75" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="76">    
+    <bendpoint x="1898" y="632"/>    
+    <bendpoint x="1658" y="1437"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <dependency id="77">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <association id="78">    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="79" name="enemyEntityArray"/>      
+      <multiplicity id="80" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="81">    
+    <bendpoint x="93" y="3973"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <association id="82">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="83" name="gameHighscores"/>      
+      <multiplicity id="84" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="85">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="86" name="game"/>      
+      <multiplicity id="87" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="88">    
+    <bendpoint x="1468" y="-276"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <dependency id="89">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <dependency id="90">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <dependency id="91">    
+    <bendpoint x="116" y="1846"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <association id="92">    
+    <bendpoint x="1576" y="632"/>    
+    <bendpoint x="1285" y="1437"/>    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="93" name="game"/>      
+      <multiplicity id="94" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="95">    
+    <bendpoint x="1637" y="1437"/>    
+    <bendpoint x="1637" y="1846"/>    
+    <bendpoint x="1637" y="2705"/>    
+    <bendpoint x="1637" y="3150"/>    
+    <bendpoint x="1637" y="3973"/>    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <dependency id="96">    
+    <bendpoint x="1700" y="1846"/>    
+    <bendpoint x="1700" y="2705"/>    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="27"/>  
+  </dependency>  
+  <dependency id="97">    
+    <bendpoint x="137" y="1846"/>    
+    <bendpoint x="93" y="2705"/>    
+    <bendpoint x="93" y="3150"/>    
+    <bendpoint x="135" y="3973"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <association id="98">    
+    <bendpoint x="1616" y="1437"/>    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="99" name="friendlyEntityArray"/>      
+      <multiplicity id="100" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="101">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="102" name="gameTextures"/>      
+      <multiplicity id="103" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="104">    
+    <bendpoint x="2072" y="632"/>    
+    <bendpoint x="2072" y="1437"/>    
+    <bendpoint x="2072" y="1846"/>    
+    <bendpoint x="2072" y="2705"/>    
+    <bendpoint x="2072" y="3150"/>    
+    <bendpoint x="2051" y="3973"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <dependency id="105">    
+    <bendpoint x="794" y="2705"/>    
+    <bendpoint x="794" y="3150"/>    
+    <bendpoint x="931" y="3973"/>    
+    <bendpoint x="931" y="4166"/>    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <association id="106">    
+    <bendpoint x="95" y="1846"/>    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="107" name="gameOverScreen"/>      
+      <multiplicity id="108" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="109">    
+    <bendpoint x="1967" y="632"/>    
+    <bendpoint x="1967" y="1437"/>    
+    <bendpoint x="1925" y="1846"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <association id="110">    
+    <bendpoint x="2070" y="-29"/>    
+    <bendpoint x="2051" y="632"/>    
+    <bendpoint x="2051" y="1437"/>    
+    <bendpoint x="2030" y="1846"/>    
+    <bendpoint x="2009" y="2705"/>    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="111" name="enemyTextures"/>      
+      <multiplicity id="112" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="113">    
+    <bendpoint x="-579" y="632"/>    
+    <bendpoint x="-579" y="1437"/>    
+    <bendpoint x="-579" y="1846"/>    
+    <bendpoint x="-558" y="2705"/>    
+    <bendpoint x="-495" y="3150"/>    
+    <bendpoint x="-453" y="3973"/>    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <dependency id="114">    
+    <bendpoint x="441" y="3973"/>    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <association id="115">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="116" name="gameScore"/>      
+      <multiplicity id="117" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="118">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="119" name="gameController"/>      
+      <multiplicity id="120" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="121">    
+    <bendpoint x="1555" y="632"/>    
+    <bendpoint x="1243" y="1437"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="122" name="game"/>      
+      <multiplicity id="123" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="124">    
+    <bendpoint x="815" y="3150"/>    
+    <bendpoint x="910" y="3973"/>    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <association id="125">    
+    <bendpoint x="40" y="632"/>    
+    <bendpoint x="40" y="1437"/>    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="126" name="game"/>      
+      <multiplicity id="127" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="128">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="129" name="game"/>      
+      <multiplicity id="130" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="131">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="29"/>  
+  </generalization>  
+  <association id="132">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="133" name="game"/>      
+      <multiplicity id="134" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="135">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="136">    
+    <bendpoint x="19" y="632"/>    
+    <bendpoint x="516" y="1437"/>    
+    <bendpoint x="1012" y="1846"/>    
+    <bendpoint x="1306" y="2705"/>    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="27"/>  
+  </dependency>  
+  <association id="137">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="138" name="gameController"/>      
+      <multiplicity id="139" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="140">    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="141" name="enemyEntity"/>      
+      <multiplicity id="142" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="143">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="144" name="gameOverScreen"/>      
+      <multiplicity id="145" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="146">    
+    <bendpoint x="1246" y="-29"/>    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="147" name="gameController"/>      
+      <multiplicity id="148" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="149">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="29"/>  
+  </generalization>  
+  <dependency id="150">    
+    <bendpoint x="1988" y="632"/>    
+    <bendpoint x="1988" y="1437"/>    
+    <bendpoint x="1967" y="1846"/>    
+    <bendpoint x="1925" y="2705"/>    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="27"/>  
+  </dependency>  
+  <dependency id="151">    
+    <bendpoint x="1229" y="632"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <generalization id="152">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="29"/>  
+  </generalization>  
+  <association id="153">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="154" name="gameController"/>      
+      <multiplicity id="155" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="156">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="157" name="game"/>      
+      <multiplicity id="158" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="159">    
+    <bendpoint x="-468" y="1846"/>    
+    <bendpoint x="-516" y="2705"/>    
+    <bendpoint x="-516" y="3150"/>    
+    <bendpoint x="-516" y="3973"/>    
+    <bendpoint x="-516" y="4166"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <dependency id="160">    
+    <bendpoint x="419" y="3150"/>    
+    <bendpoint x="419" y="3973"/>    
+    <bendpoint x="419" y="4166"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <dependency id="161">    
+    <bendpoint x="-558" y="1846"/>    
+    <bendpoint x="-579" y="2705"/>    
+    <bendpoint x="-579" y="3150"/>    
+    <bendpoint x="-579" y="3973"/>    
+    <bendpoint x="-579" y="4166"/>    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <dependency id="162">    
+    <bendpoint x="1946" y="1846"/>    
+    <bendpoint x="1946" y="2705"/>    
+    <bendpoint x="1946" y="3150"/>    
+    <bendpoint x="1946" y="3973"/>    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <dependency id="163">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <nesting id="164">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="25"/>  
+  </nesting>  
+  <association id="165">    
+    <bendpoint x="1574" y="1437"/>    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="166" name="gameController"/>      
+      <multiplicity id="167" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="168">    
+    <bendpoint x="773" y="2705"/>    
+    <bendpoint x="773" y="3150"/>    
+    <bendpoint x="773" y="3973"/>    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <dependency id="169">    
+    <bendpoint x="-370" y="1846"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <dependency id="170">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <dependency id="171">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <dependency id="172">    
+    <bendpoint x="1532" y="1437"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <association id="173">    
+    <bendpoint x="74" y="1846"/>    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="174" name="winScreen"/>      
+      <multiplicity id="175" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="176">    
+    <bendpoint x="-23" y="-29"/>    
+    <bendpoint x="-23" y="632"/>    
+    <bendpoint x="-2" y="1437"/>    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="177" name="game"/>      
+      <multiplicity id="178" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="179">    
+    <bendpoint x="-175" y="1846"/>    
+    <bendpoint x="-175" y="2705"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="180">    
+    <bendpoint x="-600" y="632"/>    
+    <bendpoint x="-600" y="1437"/>    
+    <bendpoint x="-600" y="1846"/>    
+    <bendpoint x="-600" y="2705"/>    
+    <bendpoint x="-537" y="3150"/>    
+    <bendpoint x="-474" y="3973"/>    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <dependency id="181">    
+    <bendpoint x="1919" y="632"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="26"/>  
+  </dependency>  
+  <dependency id="182">    
+    <bendpoint x="114" y="3150"/>    
+    <bendpoint x="114" y="3973"/>    
+    <bendpoint x="114" y="4166"/>    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <dependency id="183">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="26"/>  
+  </dependency>  
+  <association id="184">    
+    <bendpoint x="2009" y="632"/>    
+    <bendpoint x="2009" y="1437"/>    
+    <bendpoint x="2009" y="1846"/>    
+    <bendpoint x="1988" y="2705"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="185" name="playerTextures"/>      
+      <multiplicity id="186" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="187">    
+    <bendpoint x="1946" y="1437"/>    
+    <bendpoint x="1988" y="1846"/>    
+    <bendpoint x="2030" y="2705"/>    
+    <bendpoint x="2051" y="3150"/>    
+    <bendpoint x="2072" y="3973"/>    
+    <bendpoint x="2072" y="4166"/>    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <dependency id="188">    
+    <bendpoint x="-510" y="1846"/>    
+    <bendpoint x="-495" y="2705"/>    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="189">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <association id="190">    
+    <bendpoint x="1250" y="632"/>    
+    <bendpoint x="1264" y="1437"/>    
+    <bendpoint x="1296" y="1846"/>    
+    <bendpoint x="1327" y="2705"/>    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="191" name="enemyTextures"/>      
+      <multiplicity id="192" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="193">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="194" name="game"/>      
+      <multiplicity id="195" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="196">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="197" name="game"/>      
+      <multiplicity id="198" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="199">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <association id="200">    
+    <bendpoint x="-154" y="2705"/>    
+    <bendpoint x="-324" y="3150"/>    
+    <bendpoint x="-495" y="3973"/>    
+    <bendpoint x="-495" y="4166"/>    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="201" name="state"/>      
+      <multiplicity id="202" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="203">    
+    <bendpoint x="-537" y="1846"/>    
+    <bendpoint x="-537" y="2705"/>    
+    <bendpoint x="-474" y="3150"/>    
+    <bendpoint x="-432" y="3973"/>    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <association id="204">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="205" name="extraScreens"/>      
+      <multiplicity id="206" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="207">    
+    <bendpoint x="1306" y="1437"/>    
+    <bendpoint x="1597" y="632"/>    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="208" name="frog"/>      
+      <multiplicity id="209" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="210">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="18"/>  
+  </nesting>  
+  <association id="211">    
+    <bendpoint x="1285" y="2705"/>    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="212" name="gameTextures"/>      
+      <multiplicity id="213" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.14" icons="true" automaticImage="PNG">  
+  <object id="1" language="java" name="com.game.src.userInteraction.MouseInput" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/userInteraction/MouseInput.java" binary="false" label="mouseInput" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="134" y="0"/>  
+  </object>  
+  <object id="2" language="java" name="com.game.src.userInteraction.KeyInput" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/userInteraction/KeyInput.java" binary="false" label="keyInput" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="134" y="0"/>  
+  </object>  
+  <object id="3" language="java" name="com.game.src.media.Sound" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/media/Sound.java" binary="false" label="sound" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="134" y="0"/>  
+  </object>  
+  <object id="4" language="java" name="com.game.src.main.Game" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/main/Game.java" binary="false" label="game" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="134" y="0"/>  
+  </object>  
+  <object id="5" language="java" name="com.game.src.logics.Score" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/logics/Score.java" binary="false" label="score" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="134" y="0"/>  
+  </object>  
+  <object id="6" language="java" name="com.game.src.logics.Physics" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/logics/Physics.java" binary="false" label="physics" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="134" y="0"/>  
+  </object>  
+  <object id="7" language="java" name="com.game.src.logics.GameHighscores" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/logics/GameHighscores.java" binary="false" label="gameHighscores" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="134" y="0"/>  
+  </object>  
+  <object id="8" language="java" name="com.game.src.logics.Controller" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/logics/Controller.java" binary="false" label="controller" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="134" y="0"/>  
+  </object>  
+  <object id="9" language="java" name="com.game.src.libs.Animation" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/libs/Animation.java" binary="false" label="animation" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="134" y="0"/>  
+  </object>  
+  <object id="10" language="java" name="com.game.src.graphics.WinScreen" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/graphics/WinScreen.java" binary="false" label="winScreen" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="134" y="0"/>  
+  </object>  
+  <object id="11" language="java" name="com.game.src.graphics.Textures" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/graphics/Textures.java" binary="false" label="textures" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="134" y="0"/>  
+  </object>  
+  <object id="12" language="java" name="com.game.src.graphics.SpriteSheet" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/graphics/SpriteSheet.java" binary="false" label="spriteSheet" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="134" y="0"/>  
+  </object>  
+  <object id="13" language="java" name="com.game.src.graphics.Menu" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/graphics/Menu.java" binary="false" label="menu" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="134" y="0"/>  
+  </object>  
+  <object id="14" language="java" name="com.game.src.graphics.GameScreen" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/graphics/GameScreen.java" binary="false" label="gameScreen" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="134" y="0"/>  
+  </object>  
+  <object id="15" language="java" name="com.game.src.graphics.GameOverScreen" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/graphics/GameOverScreen.java" binary="false" label="gameOverScreen" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="134" y="0"/>  
+  </object>  
+  <object id="16" language="java" name="com.game.src.graphics.FrameStarter" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/graphics/FrameStarter.java" binary="false" label="frameStarter" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="134" y="0"/>  
+  </object>  
+  <object id="17" language="java" name="com.game.src.graphics.ExtraScreens" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/graphics/ExtraScreens.java" binary="false" label="extraScreens" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="134" y="0"/>  
+  </object>  
+  <object id="18" language="java" name="com.game.src.graphics.BufferedImageLoader" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/graphics/BufferedImageLoader.java" binary="false" label="bufferedImageLoader" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="134" y="0"/>  
+  </object>  
+  <object id="19" language="java" name="com.game.src.constants.MenuConstants" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/constants/MenuConstants.java" binary="false" label="menuConstants" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="134" y="0"/>  
+  </object>  
+  <object id="20" language="java" name="com.game.src.constants.GameConstants.LaneNumber" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/constants/GameConstants.java" binary="false" label="laneNumber" 
+    type="enumeration" autoSize="true">    
+    <position height="-1" width="-1" x="134" y="0"/>  
+  </object>  
+  <object id="21" language="java" name="com.game.src.constants.GameConstants.STATE" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/constants/GameConstants.java" binary="false" label="state" type="enumeration" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="134" y="0"/>  
+  </object>  
+  <object id="22" language="java" name="com.game.src.constants.GameConstants" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/constants/GameConstants.java" binary="false" label="gameConstants" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="134" y="0"/>  
+  </object>  
+  <object id="23" language="java" name="com.game.src.constants.FinalScreenConstants" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/constants/FinalScreenConstants.java" binary="false" label="finalScreenConstants" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="134" y="0"/>  
+  </object>  
+  <object id="24" language="java" name="com.game.src.characters.TruckEnemy" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/characters/TruckEnemy.java" binary="false" label="truckEnemy" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="134" y="0"/>  
+  </object>  
+  <object id="25" language="java" name="com.game.src.characters.Player" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/characters/Player.java" binary="false" label="player" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="134" y="0"/>  
+  </object>  
+  <object id="26" language="java" name="com.game.src.characters.Leaves" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/characters/Leaves.java" binary="false" label="leaves" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="134" y="0"/>  
+  </object>  
+  <object id="27" language="java" name="com.game.src.characters.GameObject" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/characters/GameObject.java" binary="false" label="gameObject" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="134" y="0"/>  
+  </object>  
+  <object id="28" language="java" name="com.game.src.characters.FriendlyEntity" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/characters/FriendlyEntity.java" binary="false" label="friendlyEntity" 
+    type="interface" autoSize="true">    
+    <position height="-1" width="-1" x="134" y="0"/>  
+  </object>  
+  <object id="29" language="java" name="com.game.src.characters.EnemyEntity" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/characters/EnemyEntity.java" binary="false" label="enemyEntity" type="interface" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="134" y="0"/>  
+  </object>  
+  <object id="30" language="java" name="com.game.src.characters.Enemy" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/characters/Enemy.java" binary="false" label="enemy" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="134" y="0"/>  
+  </object>  
+  <object id="31" language="java" name="com.game.src.characters.CarEnemy" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/characters/CarEnemy.java" binary="false" label="carEnemy" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="134" y="0"/>  
+  </object>  
+  <object id="32" language="java" name="com.game.src.characters.BikeEnemy" project="FroggerTCP" 
+    file="/FroggerTCP/src/com/game/src/characters/BikeEnemy.java" binary="false" label="bikeEnemy" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="134" y="0"/>  
+  </object>
+</sequence-diagram>

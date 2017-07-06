@@ -46,7 +46,7 @@ public class Game extends Canvas implements Runnable{
 	private BufferedImage gameoverbackground = null;
 	private BufferedImage helpbackground = null;
 	
-	private static STATE state = STATE.WIN;
+	private static STATE state = STATE.INTRO;
 	
 	private Player frog;
 	private Controller gameController;

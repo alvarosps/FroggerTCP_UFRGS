@@ -14,5 +14,5 @@ Authors:
 -Matheus Araújo de Britto Velho
 -Ricardo dos Casaes Belo
 
-First project of the authors in JAVA, if you find any bugs, please let us now!
+First project of the authors in JAVA, if you find any bugs, please let us know!
 
